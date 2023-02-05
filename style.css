@@ -64,3 +64,11 @@ footer .social_icon li a:hover {
 footer .menu li a:hover {
   opacity: 1;
 }
+
+footer p {
+  color: #fff;
+  text-align: center;
+  margin-top: 15px;
+  margin-bottom: 10px;
+  font-size: 0.75rem;
+}
