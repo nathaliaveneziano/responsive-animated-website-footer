@@ -72,3 +72,13 @@ footer p {
   margin-bottom: 10px;
   font-size: 0.75rem;
 }
+
+footer .wave {
+  position: absolute;
+  top: -100px;
+  left: 0;
+  width: 100%;
+  height: 100px;
+  background: url(wave.png);
+  background-size: 1000px 100px;
+}
