@@ -9,10 +9,49 @@
 
 body {
   display: flex;
-  justify-content: flex-end;
-  align-items: flex-end;
+  justify-content: space-between;
+  align-items: center;
+  flex-direction: column;
   min-height: 100vh;
   background: #333;
+}
+
+header {
+  position: relative;
+  margin: 1.5rem;
+  text-transform: uppercase;
+  text-align: center;
+  color: #fff;
+}
+
+header h1 {
+  font-size: 3em;
+}
+
+header h1 .thin {
+  font-weight: 200;
+}
+
+header .header-bg {
+  font-size: 1.25rem;
+  background: #3586ff;
+}
+
+header .header-bg::after {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 5px;
+  border-bottom: #333 3px solid;
+}
+
+header h2 {
+  display: inline;
+  background: #333;
+  padding: 0 10px;
+  border: #333 solid 2px;
 }
 
 footer {
