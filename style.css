@@ -114,3 +114,19 @@ footer .wave#wave2 {
     background-position-x: 1000px;
   }
 }
+
+footer .wave#wave3 {
+  z-index: 1000;
+  opacity: 0.25;
+  bottom: 15px;
+  animation: animateWave3 3s linear infinite;
+}
+
+@keyframes animateWave3 {
+  0% {
+    background-position-x: 0px;
+  }
+  100% {
+    background-position-x: 1000px;
+  }
+}
