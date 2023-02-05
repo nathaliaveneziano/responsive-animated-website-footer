@@ -82,3 +82,19 @@ footer .wave {
   background: url(wave.png);
   background-size: 1000px 100px;
 }
+
+footer .wave#wave1 {
+  z-index: 1000;
+  opacity: 1;
+  bottom: 0;
+  animation: animateWave1 4s linear infinite;
+}
+
+@keyframes animateWave1 {
+  0% {
+    background-position-x: 1000px;
+  }
+  100% {
+    background-position-x: 0px;
+  }
+}
