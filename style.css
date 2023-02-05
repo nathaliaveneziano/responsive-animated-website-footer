@@ -27,7 +27,8 @@ footer {
   flex-direction: column;
 }
 
-footer .social_icon {
+footer .social_icon,
+footer .menu {
   position: relative;
   display: flex;
   justify-content: center;
@@ -36,11 +37,13 @@ footer .social_icon {
   flex-wrap: wrap;
 }
 
-footer .social_icon li {
+footer .social_icon li,
+footer .menu li {
   list-style: none;
 }
 
-footer .social_icon li a {
+footer .social_icon li a,
+footer .menu li a {
   font-size: 2em;
   color: #fff;
   margin: 0 10px;
@@ -48,6 +51,16 @@ footer .social_icon li a {
   transition: 0.5s;
 }
 
+footer .menu li a {
+  font-size: 1.2em;
+  text-decoration: none;
+  opacity: 0.75;
+}
+
 footer .social_icon li a:hover {
   transform: translateY(-10px);
+}
+
+footer .menu li a:hover {
+  opacity: 1;
 }
