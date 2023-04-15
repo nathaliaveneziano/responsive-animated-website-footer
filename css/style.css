@@ -244,7 +244,8 @@ span {
   margin-bottom: 25px;
 }
 
-.card .button {
+.card .button,
+.contact-me .button-two {
   background-color: #f9004d;
   color: #fff;
   text-decoration: none;
@@ -255,8 +256,27 @@ span {
   transition: 0.4s;
 }
 
-.card .button:hover {
+.card .button:hover,
+.contact-me .button-two:hover {
   background-color: transparent;
   border: 2px solid #f9004d;
   cursor: pointer;
+}
+
+/* CONTACT ME */
+.contact-me {
+  width: 100%;
+  height: 290px;
+  background-color: #191919;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.contact-me p {
+  color: #fff;
+  font-size: 30px;
+  font-weight: bold;
+  margin-bottom: 25px;
 }
