@@ -9,7 +9,7 @@
 [![Youtube link](https://img.shields.io/badge/YouTube-Online%20Tutorials-ff0000?style=for-the-badge)](https://www.youtube.com/watch?v=UpkEANWC2Ms)
 ![Status project](https://img.shields.io/badge/Status-Concluído-2D963D?style=for-the-badge)
 
-<img src="image.png" alt="Demonstração do projeto">
+<img src="./img/image.png" alt="Demonstração do projeto">
 
 ## Tabela de conteúdos
 
@@ -18,19 +18,15 @@
 - [Sobre o projeto](#-sobre-o-projeto)
 - [Tecnologias](#-tecnologias)
   - [WebSite](#website)
-  - [Utilitários](#utilitarios)
+  - [Utilitários](#utilitários)
 - [Layout](#-layout)
   - [Mobile](#mobile)
   - [Tablet](#tablet)
   - [Web](#web)
 - [Como executar o projeto](#-como-executar-o-projeto)
   - [Pré-requisitos](#pré-requisitos)
-  - [Rodando o Backend (servidor)](#user-content--rodando-o-backend-servidor)
-  - [Rodando a aplicação web (Frontend)](#user-content--rodando-a-aplicação-web-frontend)
-- [Contribuidores](#-contribuidores)
-- [Como contribuir no projeto](#-como-contribuir-no-projeto)
 - [Autor](#-autor)
-- [Licença](#user-content--licença)
+- [Licença](#-licença)
 <!--te-->
 
 ## 💻 Sobre o projeto
@@ -58,15 +54,15 @@ As seguintes ferramentas foram usadas na construção do projeto:
 
 ### Mobile
 
-![Mobile](image-mobile.png)
+![Mobile](./img/image-mobile.png)
 
 ### Tablet
 
-![Tablet](image-tablet.png)
+![Tablet](./img/image-tablet.png)
 
 ### Web
 
-![Website](image.png)
+![Website](./img/image.png)
 
 ## 🚀 Como executar o projeto
 
@@ -102,9 +98,12 @@ Abra o projeto no VSCode, caso queira abrir via terminal, só colocar o seguinte
 $ code .
 ```
 
-Com o projeto aberto, rode o Live Server para ver o projeto em tempo real.
+Com o projeto aberto, rode o Live Server para ver o projeto em tempo real. Existem 3 formas de rodar o Live Server:
+- Clique na barra inferior direita em `Live Server`
+- Botão direito no arquivo `index.html` e selecione `Open with Live Server`
+- Através do atalho ALT+L ALT+O e
 
-Basta clicar nele na barra inferior direita e será aberta uma nova guia no seru navegador de preferencia.
+Será aberta uma nova guia no seu navegador de preferencia, normalmente ele abre em `http://localhost:5500/`.
 
 ## 🦸 Autor
 
