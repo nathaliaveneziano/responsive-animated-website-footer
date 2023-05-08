@@ -9,7 +9,7 @@
 [![Youtube link](https://img.shields.io/badge/YouTube-Online%20Tutorials-ff0000?style=for-the-badge)](https://www.youtube.com/watch?v=UpkEANWC2Ms)
 ![Status project](https://img.shields.io/badge/Status-Concluído-2D963D?style=for-the-badge)
 
-<img src="./img/image.png" alt="Demonstração do projeto">
+<img src="./img/cover.webp" alt="Demonstração do projeto">
 
 ## Tabela de conteúdos
 
@@ -19,10 +19,7 @@
 - [Tecnologias](#-tecnologias)
   - [WebSite](#website)
   - [Utilitários](#utilitários)
-- [Layout](#-layout)
-  - [Mobile](#mobile)
-  - [Tablet](#tablet)
-  - [Web](#web)
+- [Layouts](#-layouts)
 - [Como executar o projeto](#-como-executar-o-projeto)
   - [Pré-requisitos](#pré-requisitos)
 - [Autor](#-autor)
@@ -50,19 +47,24 @@ As seguintes ferramentas foram usadas na construção do projeto:
 - Ícones: **[Ionicons](https://ionic.io/ionicons)**
 - Fontes: **[Poppins](https://fonts.google.com/specimen/Poppins?query=poppins)**
 
-## 🎨 Layout
+## 🎨 Layouts
 
-### Mobile
-
-![Mobile](./img/image-mobile.png)
-
-### Tablet
-
-![Tablet](./img/image-tablet.png)
-
-### Web
-
-![Website](./img/image.png)
+<table>
+  <thead>
+    <tr>
+      <th>Mobile</th>
+      <th>Tablet</th>
+      <th>Web</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td><img src="./img/mobile.png" alt=""></td>
+      <td><img src="./img/tablet.png" alt=""></td>
+      <td><img src="./img/desktop.png" alt=""></td>
+    </tr>
+  </tbody>
+</table>
 
 ## 🚀 Como executar o projeto
 
